@@ -31,9 +31,3 @@ PRODUCT_RELEASE_NAME := spes
 # Forcefully add mtp support (adb is already there)
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=mtp
-
-# Add fingerprint from Stock ROM build.prop
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    # These lines are from my device. You MUST Replace yours.
-    BUILD_FINGERPRINT="Redmi/qssi/qssi:11/RKQ1.211001.001/V13.0.8.0.RGCINXM:user/release-keys" \
-    PRIVATE_BUILD_DESC="full_gionee6735_65u_m0-user 6.0 MRA58K 1465782828 release-keys"
