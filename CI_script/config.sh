@@ -2,7 +2,7 @@
 
 # Device
 export FOX_BRANCH="fox_11.0"
-export DT_LINK="https://github.com/shashankx86/android_device_xiaomi_spes-TWRP.git -b twrp-11"
+export DT_LINK="https://github.com/axe-e/xds.git -b main"
 
 export DEVICE="spes"
 export OEM="xiaomi"
