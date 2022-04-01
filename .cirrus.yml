@@ -21,14 +21,14 @@ task:
       memory: 20G
 
   Checks_script:
-      - curl -sL https://raw.githubusercontent.com/shashankx86/android_device_xiaomi_spes-TWRP/twrp-11/CI_script/checks.sh | bash
+      - curl -sL https://raw.githubusercontent.com/axe-e/xds/main/CI_script/checks.sh | bash
 
   Sync_script:
-      - curl -sL https://raw.githubusercontent.com/shashankx86/android_device_xiaomi_spes-TWRP/twrp-11/CI_script/sync.sh | bash
+      - curl -sL https://raw.githubusercontent.com/axe-e/xds/main/CI_script/sync.sh | bash
 
   Build_script:
-      - curl -sL https://raw.githubusercontent.com/shashankx86/android_device_xiaomi_spes-TWRP/twrp-11/CI_script/build.sh | bash
+      - curl -sL https://raw.githubusercontent.com/axe-e/xds/main/CI_script/build.sh | bash
 
   Upload_script:
       - export TIMEOUT=43200 # Link timeout (in minutes)
-      - curl https://raw.githubusercontent.com/shashankx86/android_device_xiaomi_spes-TWRP/twrp-11/CI_script/upload.sh | bash
+      - curl https://raw.githubusercontent.com/axe-e/xds/main/CI_script/upload.sh | bash
