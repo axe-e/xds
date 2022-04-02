@@ -2,7 +2,7 @@
 
 # Device
 export FOX_BRANCH="fox_11.0"
-export DT_LINK="https://github.com/axe-e/xds.git -b main"
+export DT_LINK="cd /root/work/out/target/product/spes/ -b fox_11.0"
 
 export DEVICE="spes"
 export OEM="xiaomi"
